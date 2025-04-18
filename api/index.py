@@ -1,5 +1,6 @@
 from flask import Flask 
 from flask_cors import CORS 
+from .routes import get_news
 
 app = Flask (__name__)
 
